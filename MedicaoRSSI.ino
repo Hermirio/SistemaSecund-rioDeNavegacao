@@ -10,12 +10,6 @@ String mac;
 BLEScan *scan;
 int pino [] = {15, 4, 5, 19};
 
-class MyAdvertisedDeviceCallbacks: public BLEAdvertisedDeviceCallbacks {
-    void onResult(BLEAdvertisedDevice advertisedDevice) {
-      Serial.printf("Advertised Device: %s \n", advertisedDevice.toString().c_str());
-    }
-};
-
 void setup() 
 {
   Serial.begin(115200);
