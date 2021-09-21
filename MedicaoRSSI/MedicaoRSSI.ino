@@ -1,3 +1,7 @@
+/*
+author: Wanderson Hermirio dos Santos
+describe: programa para clonar Medição do RSSI do beacon
+*/
 //library
 #include <BLEAdvertisedDevice.h>
 #include <BLEDevice.h>
